@@ -23,7 +23,7 @@ object ApiModule {
     @Singleton
     fun provideLoggingInterceptor(): HttpLoggingInterceptor {
         return HttpLoggingInterceptor().apply {
-            level = HttpLoggingInterceptor.Level.BODY // Use BODY for more detailed logs during development
+            level = HttpLoggingInterceptor.Level.BODY
         }
     }
 

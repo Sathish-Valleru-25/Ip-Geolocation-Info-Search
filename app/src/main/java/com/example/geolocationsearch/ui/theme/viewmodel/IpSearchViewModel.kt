@@ -15,8 +15,7 @@ import javax.inject.Inject
 
 @HiltViewModel
 class IpSearchViewModel @Inject constructor(
-    private val ipRepository: IpSearchRepository
-) : ViewModel() {
+    private val ipRepository: IpSearchRepository) : ViewModel() {
 
     private val _uiState = MutableStateFlow<IpInfoUiState>(IpInfoUiState.Idle)
     val uiState: StateFlow<IpInfoUiState> = _uiState.asStateFlow()
