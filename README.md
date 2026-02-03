@@ -1,4 +1,4 @@
-IP Geolocation Search
+**IP Geolocation Search**
 
 This Android project fetches IP geolocation data using the IP-API and stores it in a local database for future retrieval. The app fetches data either from the local database or an API, depending on the availability of data, and uses MVVM and Clean Architecture for organizing the code.
 
